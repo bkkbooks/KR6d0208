@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6d0208/v1
+canonical_location: https://kanripo.org/bkk/KR6d0208/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 禪門要略
+  identifiers:
+    alt_id:
+    - X55n0908
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X55/X55n0908.xml
+    old_id: X55n0908
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6d0208_000.yaml, hash: 'sha256:88ba2944a9f4d38277ed31878db8a5a4882032d6433932fe97d2ab978e0201e6'}
+  - {seq: 1, filename: KR6d0208_001.yaml, hash: 'sha256:a859061f4c04a8c8cda6c4e71f613ff637dc7d04cb682bc9825a36ae20ca88f8'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6d0208_001.markers.yaml, hash: 'sha256:8cb958b78e6921a5360b1af508f29d6373a3fe4d76316df36d19e204a31c0c07'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6d0208_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 2368
+  label: 禪門要略
+  type: juan
+  level: 1
+hash: sha256:f0c527056fdf3ef482b0d7e35a1ad01e3252de74202ddf4474e753da441e5e56
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

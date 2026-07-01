@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6d0208/x/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 禪門要略
+  edition:
+    short: x
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X55/X55n0908.xml
+    old_id: X55n0908
+hash: sha256:88ba2944a9f4d38277ed31878db8a5a4882032d6433932fe97d2ab978e0201e6
